@@ -1,1 +1,21 @@
-
+.Fball{
+  font-size: 6rem;
+}
+.Hockey {
+  font-size: 6rem;
+}
+.pills {
+   color: #00ff00;
+}
+ 
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background-color:#1A671A;
+    }
+.nav-pills > li > a, .nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+  color: #1A671A
+}
