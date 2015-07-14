@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script>
+            
+      function onclick(elementId){
+        document.getElementById(elementId).className += "active";
+        
+      }
 
+    </script>
+    
+  <style id="jsbin-css">
+
+.Fball{
+  font-size: 6rem;
+}
+.Hockey {
+  font-size: 6rem;
+}
+.pills {
+   color: #00ff00;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background-color:#1A671A;
+    }
+.nav-pills > li > a, .nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+  color: #1A671A
+}
+</style>
+</head>
+  <body>
+    <div class=pills>
+    <ul class="nav nav-pills red">
+	<li class="Fball"><a href="https://jsbin.com/moheja/1/edit?html,output">Football</a></li>
+	<li class="Hockey"><a href="#" >Hockey</a></li>
+      </div>
+ 
+ 
+   
+    </ul>
+  <script id="jsbin-javascript">
+$('ul.nav.nav-pills li a').click(function() {           
+    $(this).parent().addClass('active').siblings().removeClass('active');           
+});
+</script>
+ 
+ 
+<script id="jsbin-source-css" type="text/css">
+.Fball{
+  font-size: 6rem;
+}
+.Hockey {
+  font-size: 6rem;
+}
+.pills {
+   color: #00ff00;
+}
+ 
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background-color:#1A671A;
+    }
+.nav-pills > li > a, .nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+  color: #1A671A
+}</script>
+ 
+<script id="jsbin-source-javascript" type="text/javascript">$('ul.nav.nav-pills li a').click(function() {           
+    $(this).parent().addClass('active').siblings().removeClass('active');           
+});</script></body>
+</html>
